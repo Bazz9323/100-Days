@@ -1,0 +1,14 @@
+import java.util.Scanner;
+
+public class Hari73_MasterPiace {
+    public static void main(String[] args) {
+        Scanner input = new Scanner(System.in);
+        int angka= input.nextInt();
+        if(angka%3==0 && angka%5==0){
+            System.out.println("mater piece");
+        }else if (angka%3==0){
+            System.out.println("3");
+        }else if (angka%5==0){
+            System.out.println("5");
+    }
+}
