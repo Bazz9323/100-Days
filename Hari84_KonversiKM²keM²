@@ -1,0 +1,19 @@
+import java.util.Scanner;
+
+
+
+public class Hari82_KonversiPanjang {
+
+    public static void main(String[] args) {
+
+        Scanner input = new Scanner(System.in);
+
+        System.out.println("masukkan panjang (KM2) : ");
+
+        int km= input.nextInt();
+
+        System.out.println(km+" KM2 = "+(km*1000000)+" M2");
+
+    }
+
+}
