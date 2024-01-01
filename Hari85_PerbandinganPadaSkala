@@ -1,0 +1,16 @@
+import java.util.Scanner;
+public class Hari85_PerbandinganSkala {
+
+    public static void main(String[] args) {
+
+        Scanner input = new Scanner(System.in);
+
+        System.out.println("masukkan panjang pada peta : ");
+
+        int peta= input.nextInt();
+
+        System.out.println(peta*10000);
+
+    }
+
+}
