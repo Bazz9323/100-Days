@@ -1,0 +1,14 @@
+public class Hari96_HabisDibagi5 {
+
+    public static void main(String[] args) {
+        //mencetak angka dari 1-100 yang habis dibagi 5
+        int angka = 1;
+        while (angka <= 100) {
+            if (angka % 5 == 0) {
+                System.out.println(angka);
+            }
+            angka++;
+        }
+    }
+
+}
