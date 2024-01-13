@@ -1,0 +1,9 @@
+public class Hari97_JumlahKeseluruhan {
+	public static void main(String[] args) {
+		int tampung = 0;
+		for(int i = 0; i <= 100; i++){
+			tampung+=i;
+			}
+			System.out.print(tampung);
+	}
+}
